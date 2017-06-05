@@ -1,0 +1,250 @@
+body{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/747763/woodgrain.jpg);
+  background-size: cover;
+}
+@font-face {
+    font-family: digital;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/747763/TickingTimebombBB.ttf);
+}
+.inlineText{
+  position: relative;
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: top;
+}
+.powerBox{
+  display: block;
+  text-align: center;
+  margin-top: -13px;
+}
+#strictLight{
+  border: 1px solid black;
+  width: 7px;
+  height: 7px;
+  margin: -7px auto 10px auto;
+  border-radius: 100%;
+  display: block;
+}
+.strictLight{
+  background: black;
+}
+.strictLightOff{
+  background: #D31B36;
+}
+.strictLightOn{
+  background: #FF0000;
+   box-shadow: 0px 0px 20px 3px #FF0000;
+  -webkit-box-shadow: 0px 0px 20px 3px #FF0000;
+  -moz-box-shadow: 0px 0px 20px 3px #FF0000;
+  
+}
+#display{
+  background: black;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 5px;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: digital, sans serif; 
+}
+.displayBox,.startBox,.strictBox{
+  position: relative;
+  display: inline-block;
+  width: 14%;
+  text-align: center;
+  margin: 0 5%;
+  vertical-align: bottom;
+}
+H5{
+  margin-top: 7px;
+}
+.displayBox{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5%;
+  width: 20%;
+}
+.switchBox{
+  position: relative;
+  display: inline-block;
+  margin-top: 8px;
+}
+#switch{
+  width: 50px;
+  height: 25px;
+  background: black;
+  margin: 0 auto;
+}
+#switchBtn{
+  position: relative;
+  width: 18px;
+  height: 18px;
+  top: 2px;
+  left: 2px;
+  background: #3294DC;
+  border: solid 1px #2975B7;
+  box-shadow: 3px 1px 2px 1px #2975B7;
+  -webkit-box-shadow: 3px 1px 2px 1px #2975B7;
+  -moz-box-shadow: 3px 1px 2px 1px #2975B7;
+}
+.btn{
+  position: relative;
+  display: block;
+  margin: o auto;
+  text-align: center;
+}
+sup{
+  font-size: 24px;
+}
+h1{
+  position: relative;
+  font-size: 48px;
+  text-align: center;
+}
+#start{
+  width: 30px;
+  height: 30px;
+  background: red;
+  margin: 0 auto;
+  border: 4px solid black;
+  border-radius: 100%;
+  box-shdow: 2px 2px 2px 2px black;
+  -webkit-box-shadow:2px 2px 2px 2px black;
+  -mox-box-shadow:2px 2px 2px 2px black;
+  -webkit-box-shadow: inset 0px 0px 3px 5px #D31B36;
+  -moz-box-shadow: inset 0px 0px 3px 5px #D31B36;
+  box-shadow: inset 0px 0px 3px 5px #D31B36;
+}
+#strict{
+  width: 30px;
+  height: 30px;
+  background: yellow;
+  border: 4px solid black;
+  margin: 0 auto;
+  border-radius: 100%;
+  box-shdow: 2px 2px 2px 2px black;
+  -webkit-box-shadow:2px 2px 2px 2px black;
+  -mox-box-shadow:2px 2px 2px 2px black;
+  -webkit-box-shadow: inset 0px 0px 3px 5px #E9E906;
+  -moz-box-shadow: inset 0px 0px 3px 5px #E9E906;
+  box-shadow: inset 0px 0px 3px 5px #E9E906;
+}
+#base{
+  margin: 50px auto;
+  width: 650px;
+  height: 650px;
+  background: black;
+  border-radius: 100%; 
+  position: relative;
+  box-shadow: 0px 0px 2px 9px rgb(53, 49, 49);
+  -webkit-box-shadow: 0px 0px 2px 9px rgb(53, 49, 49);
+  -moz-box-shadow: 0px 0px 2px 9px rgb(53, 49, 49);
+}
+#menu{
+  width: 300px;
+  height: 300px;
+  background: black;
+  position: absolute;
+  top: 175px;
+  left: 175px;
+  border-radius: 100%;
+  z-index: 1;
+}
+#sticker{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  background: #EDEAED;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+}
+#arc0, #arc1, #arc2, #arc3{
+  height: 270px;
+  width: 270px;
+  position: absolute;
+}
+#arc0{
+  border-top-left-radius: 270px;
+  left: 40px;
+  top: 40px;
+}
+.arc0{
+  background: #1d7724;
+}
+.arc0Off{
+  background: #00CE5C;
+  box-shadow: inset 0px 0px 40px 15px #1d7724;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #1d7724;
+  -moz-box-shadow: inset 0px 0px 40px 15px #1d7724;  
+}
+.arc0On{
+  background: #03ea6a;
+  box-shadow: inset 0px 0px 40px 15px #9bffc8;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #9bffc8;
+  -moz-box-shadow: inset 0px 0px 40px 15px #9bffc8;  
+}
+
+#arc1{
+  border-top-right-radius: 270px;
+  right: 40px;
+  top: 40px;
+}
+.arc1{
+  background: #752a2a;
+}
+.arc1Off{
+  background: #FF000E;
+  box-shadow: inset 0px 0px 40px 15px #752a2a;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #752a2a;
+  -moz-box-shadow: inset 0px 0px 40px 15px #752a2a;  
+}
+.arc1On{
+  background: #ff626a;
+  box-shadow: inset 0px 0px 40px 15px #ffaeae;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #ffaeae;
+  -moz-box-shadow: inset 0px 0px 40px 15px #ffaeae;
+}
+#arc2{
+  border-bottom-left-radius: 270px;
+  bottom: 40px;
+  left: 40px;
+}
+.arc2{
+  background: #806b18;
+}
+.arc2Off{
+  background: #F1C200;
+  box-shadow: inset 0px 0px 40px 15px #806b18;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #806b18;
+  -moz-box-shadow: inset 0px 0px 40px 15px #806b18;  
+}
+.arc2On{
+  background: #ffde58;
+  box-shadow: inset 0px 0px 40px 15px #fff8dd;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #fff8dd;
+  -moz-box-shadow: inset 0px 0px 40px 15px #fff8dd;
+}
+#arc3{
+  border-bottom-right-radius: 270px;
+  bottom: 40px;
+  right: 40px;
+}
+.arc3{
+  background: #193a5d;
+}
+.arc3Off{
+  background: #0064CC;
+  box-shadow: inset 0px 0px 40px 15px #193a5d;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #193a5d;
+  -moz-box-shadow: inset 0px 0px 40px 15px #193a5d;
+}
+.arc3On{
+  background: #4888cc;
+  box-shadow: inset 0px 0px 40px 15px #85c0ff;
+  -webkit-box-shadow: inset 0px 0px 40px 15px #85c0ff;
+  -moz-box-shadow: inset 0px 0px 40px 15px #85c0ff;
+}
